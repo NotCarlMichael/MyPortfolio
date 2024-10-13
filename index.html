@@ -3,273 +3,219 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Bigal, Carl Michael C.">
 
-    <title>Portfolio</title>
+    <title>Portfolio Website</title>
 
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="icon" href="./assets/icons/portfolio-icon.png" type="image/x-icon">
-    
+    <link rel="icon" type="image/X-icon" href="./assets/icons/portfolio-icon.png">
+
+    <link rel="stylesheet" href="./css/design.css">
 </head>
 
 <body>
 
-    <!-- header -->
+    <!-- header of the website-->
 
     <header>
+        <h1>My Portfolio</h1>
 
-        <h1>My portfolio</h1>
-
-        <!-- navigation bar -->
-
-        <nav id="navigation_bar">
-
+        <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#about">About me</a></li>
-                <li><a href="#project">Projects</a></li>
-                <li><a href="#skill">Skills</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-
         </nav>
+    </header>
 
-    </header>    
-
-    <!-- main content-->
     <main>
 
-        <!-- Home section -->
-
+        <!-- Home section-->
         <section id="home">
+            <h2>Hello, I'm Carl Michael</h2>
 
-            <div id="home-container">
-
-                <div class="details">
-
-                    <h2>Hello, I'm Carl Michael.</h2>
-    
-                    <p>
-                        I'm a Bachelor of Science in Information Technology (BSIT) student currently studying at PUP Calauan Campus.
-                        With a passion for technology, I am continuously honing my skills in programming, 
-                        web development, and problem-solving. My goal is to leverage my knowledge and creativity to build 
-                        innovative solutions that make a difference. In my spare time, I enjoy working on personal projects, 
-                        exploring new technologies, and collaborating with peers on various initiatives.
-                    </p>
-
-                </div>
-            
-                <div id="profile">
-
-                    <img src="./assets/profile/profile-avatar.png" alt="profile picture" width="250px" height="250px">
-
-                </div>
-
+            <div id="profile">
+                <img src="./assets/images/gojo-profile.jpg" alt="Profile Picture" width="250px" height="250px">
             </div>
 
+            <div class="details">
+                <p>
+                    I'm a Bachelor of Science in Information Technology (BSIT) student currently studying at PUP Calauan Campus.
+                    With a passion for technology, I am continuously honing my skills in programming, 
+                    web development, and problem-solving. My goal is to leverage my knowledge and creativity to build 
+                    innovative solutions that make a difference. In my spare time, I enjoy working on personal projects, 
+                    exploring new technologies, and collaborating with peers on various initiatives.
+                </p>
+            </div>
         </section>
 
-        <!-- About me section -->
-
+        <!-- About section-->
         <section id="about">
-
             <h2>About me</h2>
 
-            <h3>Educational Background</h3>
-            
-            <div class = "details">
+            <div id="education">
+                <h3>Educational Background</h3>
 
-                <strong>Limao Daycare Center</strong>
-                <p>Attended early childhood education, where I developed foundational skills in socialization and basic learning.</p>
+                <div class="details">
+                    <h4>Limao Daycare Center</h4>
+                    <p>
+                        Attended early childhood education, where I developed foundational skills in socialization and basic learning. 
+                    </p>
+                </div>
+
+                <div class="details">
+                    <h4>Limao Elementary School</h4>
+                    <p>
+                        Completed primary education, focusing on core subjects such as math, science, and language arts.
+                    </p>
+                </div>
+
+                <div class="details">
+                    <h4>Alaminos Integrated National High School</h4>
+                    <p>
+                        Participated in various extracurricular activities and developed a strong interest in technology
+                    </p>
+                </div>
+
+                <div class="details">
+                    <h4>Palm Valley Multiple Intelligence School (STEM Strand)</h4>
+                    <p>
+                        Specialized in the STEM strand, enhancing my knowledge in science, technology, engineering, and mathematics.
+                    </p>
+                </div>
+
+                <div class="details">
+                    <h4>Polytechnic University of the Philippines, Calauan Campus (Current)</h4>
+                    <p>
+                        Pursuing a Bachelor of Science in Information Technology, focusing on programming, web development, and problem-solving skills.
+                    </p>
+                </div>
 
             </div>
 
-            <div class = "details">
+            <div id="hobbies">
+                <h3>Hobbies</h3>
 
-                <strong>Limao Elementary School</strong>
-                <p>Completed primary education, focusing on core subjects such as math, science, and language arts.</p>
-
-            </div>
-
-            <div class = "details">
-
-                <strong>Alaminos Integrated National High School</strong>
-                <p>Participated in various extracurricular activities and developed a strong interest in technology</p>
-
-            </div>
-
-            <div class = "details">
-
-                <strong>Palm Valley Multiple Intelligence School (STEM Strand)</strong>
-                <p>Specialized in the STEM strand, enhancing my knowledge in science, technology, engineering, and mathematics.</p>
-
-            </div>
-
-            <div class = "details">
-
-                <strong>Polytechnic University of the Philippines, Calauan Campus (Current)</strong>
-                <p>Pursuing a Bachelor of Science in Information Technology, focusing on programming, web development, and problem-solving skills.</p>
-
+                <div class="details">
+                    <ul>
+                        <li>Reading Books</li>
+                        <li>Playing Games</li>
+                        <li>Watching Anime</li>
+                        <li>Programming</li>
+                        <li>Playing Basketball</li>
+                        <li>Hangout with friends</li>
+                    </ul>
+                </div>
             </div>
 
         </section>
 
-        <!-- Projects section -->
-        
-        <section id="project">
-
+        <!-- Projects section-->
+        <section id="projects">
             <h2>Projects</h2>
 
-            <div class="projects">
-
+            <div class="details">
                 <h3>Maze Game</h3>
                 <p>A fun and challenging maze game project using C programming</p>
-
             </div>
 
-            <div class="projects">
-
+            <div class="details">
                 <h3>Calculator</h3>
                 <p>A basic calculator using HTML CSS and Javascript</p>
-
             </div>
 
-            <div class="projects">
-
+            <div class="details">
                 <h3>Generation 1 Pokedex</h3>
                 <p>A final project for Object Oriented Programming using Java RESTful api</p>
-
             </div>
 
-            <div class="projects">
-
+            <div class="details">
                 <h3>Sales and Inventory Management System</h3>
                 <p>A small system project to manage sales and inventory of computer parts using C#</p>
-
             </div>
-
         </section>
 
-        <!-- Skills section -->
-
-        <section id="skill">
-
+        <!-- Skills section-->
+        <section id="skills">
             <h2>Skills</h2>
 
-            <div class="skills">
-                
-                <div class="skill">
+            <div class="details">
+                <h3>Programming Languages</h3>
 
-                    <h3>Programming Languages</h3>
+                <ul>
+                    <li>C</li>
+                    <li>C++</li>
+                    <li>C#</li>
+                    <li>Java</li>
+                    <li>Php</li>
+                </ul>
+            </div>
 
-                    <ul>
-                        <li>C</li>
-                        <li>C++</li>
-                        <li>C#</li>
-                        <li>Java</li>
-                        <li>Php</li>
-                    </ul>
+            <div class="details">
+                <h3>Frameworks</h3>
 
-                </div>
+                <ul>
+                    <li>Springboot</li>
+                    <li>Laravel</li>
+                </ul>
+            </div>
 
-                <div class="skill">
+            <div class="details">
+                <h3>Tools</h3>
 
-                    <h3>Frameworks</h3>
+                <ul>
+                    <li>Visual Studio Code</li>
+                    <li>Visual Studio 2022</li>
+                    <li>XAMPP</li>
+                    <li>Laragon</li>
+                    <li>IntelliJ Idea</li>
+                    <li>MySQL Workbench</li>
+                </ul>
+            </div>
 
-                    <ul>
-                        <li>Springboot</li>
-                        <li>Laravel</li>
-                    </ul>
+            <div class="details">
+                <h3>Soft Skills</h3>
 
-                </div>
-
-                <div class="skill">
-
-                    <h3>Tools</h3>
-
-                    <ul>
-                        <li>Visual Studio Code</li>
-                        <li>Visual Studio 2022</li>
-                        <li>XAMPP</li>
-                        <li>Laragon</li>
-                        <li>IntelliJ Idea</li>
-                        <li>MySQL Workbench</li>
-                    </ul>
-
-                </div>
-
-                <div class="skill">
-
-                    <h3>Databases</h3>
-
-                    <ul>
-                        <li>MySQL</li>
-                    </ul>
-
-                </div>
-
-                <div class="skill">
-
-                    <h3>Soft Skills</h3>
-
-                    <ul>
-                        <li>Problem-Solving</li>
-                        <li>Team Collaboration</li>
-                        <li>Adaptability</li>
-                        <li>Time Management</li>
-                        <li>Communication</li>
-                    </ul>
-
-                </div>
-
+                <ul>
+                    <li>Problem-Solving</li>
+                    <li>Team Collaboration</li>
+                    <li>Adaptability</li>
+                    <li>Time Management</li>
+                    <li>Communication</li>
+                </ul>
             </div>
 
         </section>
 
-        <!-- Contact section -->
-
+        <!-- Contact section-->
         <section id="contact">
-
-            <h2>Contact</h2>
+            <h2>Contact Information</h2>
 
             <div class="contacts">
-
                 <img src="./assets/icons/email icon.png" alt="email" class="icons" height="20px" width="20px">
                 <p>email: bigalcarlmichael2003@gmail.com</p>
-
             </div>
 
             <div class="contacts">
-
                 <img src="./assets/icons/Facebook icon.png" alt="facebook" class="icons" height="20px" width="20px"> 
                 <p>Fb: Carl Michael C. Bigal</p>
-
             </div>
 
             <div class="contacts">
-
                 <img src="./assets/icons/Phone-icon.png" alt="phone" class="icons" height="20px" width="20px"> 
                 <p>Phone: 0961-477-2243</p>
-
             </div>
 
         </section>
-
-        <!-- end section -->
-
     </main>
 
-    <!-- footer -->
-
     <footer>
-
         <p>&copy; 2024 Carl Michael C. Bigal. All rights reserved.</p>
-
     </footer>
-
 </body>
 
 </html>

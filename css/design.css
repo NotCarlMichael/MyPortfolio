@@ -1,7 +1,145 @@
+/* body design*/
 * {
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
+
+body {
+    background-color: hsl(0, 0%, 96%);
+    color: #333;
+    line-height: 1.6;
+}
+
+/* header design*/
+header {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(122, 39%, 49%);
+
+    padding: 20px 0px;
+
+    text-align: center;
+}
+
+header h1 {
+    font-size: 4em;
+}
+
+/* nav design*/
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(122, 39%, 49%);
+
+    border-radius: 5px;
+}
+
+/* main design*/
+
+main {
+    padding: 20px;
+
+    max-width: 800px;
+
+    margin: auto;
+
+    background-color: hsl(0, 0%, 100%);
+
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+
+    border-radius: 10px;
+}
+
+/* section design*/
+section {
+    margin-bottom: 10px;
+}
+
+section h2{
+    color: hsl(122, 39%, 49%);
+    border-bottom: 4px solid hsl(122, 39%, 49%);
+
+    margin-bottom: 20px;
+}
+
+section #profile {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;    
+}
+
+section #profile img {
+    border-radius: 50%;
+    object-fit: cover;
+
+    border: 5px solid hsl(122, 39%, 49%);
+}
+
+section .details {
+    background-color: hsl(0, 0%, 90%);
+    padding: 20px 20px;
+
+    border-radius: 10px;
+
+    margin: 20px 0;
+    
+    text-align: justify;
+}
+
+section #profile {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+section .details ul {
+    list-style-type: none;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.contacts img {
+    margin-right: 10px;
+}
+
+/* footer design*/
+footer {
+    background-color: hsl(122, 39%, 49%);
+    color: hsl(0, 0%, 100%);
+
+    padding: 10px 0;
+
+    text-align: center;
+
+    width: 100%;
+}
+
+/* Responsiveness */
